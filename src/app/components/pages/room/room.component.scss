@@ -1,0 +1,19 @@
+:host{
+  display: block;
+  background-color: black;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.wrapper-room{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+
+  app-video-player{
+    padding: .25rem;
+  }
+}
